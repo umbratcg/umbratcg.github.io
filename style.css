@@ -368,22 +368,20 @@ body {
     /* NAVBAR */
     .navbar {
       flex-direction: column;
-      align-items: flex-start;
-      padding: 10px 20px;
+      align-items: center;
+      gap: 10px;
     }
-  
+    
     .nav-links {
-      margin-top: 10px;
+      flex-direction: column;
+      align-items: center;
       width: 100%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
     }
-  
+    
     .nav-links a {
-      font-size: 1rem;
-      margin: 8px 0;
-    }
+      font-size: 1.1rem;
+      padding: 5px 0;
+    }    
   
     .logo img {
       width: 40px;
@@ -400,12 +398,13 @@ body {
     }
   
     .banner-contenido h1 {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
+      line-height: 1.2;
     }
-  
+    
     .banner-contenido p {
       font-size: 1rem;
-    }
+    }    
   
     .banner-contenido img {
       width: 120px;
@@ -413,8 +412,9 @@ body {
   
     .boton-explorar {
       font-size: 1rem;
-      padding: 12px 24px;
-    }
+      padding: 10px 20px;
+      margin-top: 16px;
+    }    
   
     .banner img.lado {
       display: none; /* Oculta las cartas de los lados */
