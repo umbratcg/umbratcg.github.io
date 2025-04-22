@@ -319,10 +319,9 @@ body {
  /* FADE MENSAJES BANNER */ 
 
  .banner-contenido h1,
- .banner-contenido p {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+.banner-contenido p {
+  transition: opacity 0.4s ease;
+  opacity: 1;
 }
 
 .fade-out {
