@@ -413,7 +413,7 @@ body {
     overflow: hidden;
   }
   
-  .banner img.lado {
+  .banner .carta {
     display: none; /* OCULTAR las cartas laterales */
   }
   
