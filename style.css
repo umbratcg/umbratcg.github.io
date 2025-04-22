@@ -402,23 +402,36 @@ body {
   }
 
   /* BANNER */
+  .banner-contenido {
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
   .banner-contenido h1 {
     font-size: 1.4rem;
+    line-height: 1.2;
+    text-shadow:
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
   }
-
+  
   .banner-contenido p {
     font-size: 1rem;
+    color: white;
   }
-
+  
   .boton-explorar {
     font-size: 1rem;
-    padding: 10px 24px;
+    padding: 10px 20px;
     margin-top: 20px;
-  }
+  }  
 
   .banner img.lado {
     display: none;
-  }
+  }  
 
   /* CATÁLOGO */
   .productos {
