@@ -402,14 +402,31 @@ body {
   }
 
   /* BANNER */
-  .banner-contenido {
+  .banner {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #c49dff; /* fallback por si desaparecen imágenes */
+    padding: 60px 20px;
+    overflow: hidden;
+  }
+  
+  .banner img.lado {
+    display: none; /* OCULTAR las cartas laterales */
+  }
+  
+  .banner-contenido {
+    position: relative;
+    z-index: 2;
     text-align: center;
-    padding: 20px 10px;
+    padding: 0 10px;
+    max-width: 90%;
   }
   
   .banner-contenido h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     text-shadow:
       -1px -1px 0 #000,
@@ -421,17 +438,20 @@ body {
   .banner-contenido p {
     font-size: 1rem;
     color: white;
+    margin-top: 10px;
   }
   
   .boton-explorar {
+    margin-top: 18px;
+    padding: 12px 24px;
     font-size: 1rem;
-    padding: 10px 20px;
-    margin-top: 20px;
-  }  
-
-  .banner img.lado {
-    display: none;
-  }  
+  }
+  
+  .banner-contenido img {
+    width: 120px;
+    margin-bottom: 12px;
+  }
+  
 
   /* CATÁLOGO */
   .productos {
