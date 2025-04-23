@@ -479,4 +479,27 @@ body {
   }
 }
 
+.subtitulo-singles {
+  text-align: center;
+  margin: 12px auto 16px;
+}
+
+.subtitulo-singles a {
+  display: inline-block;
+  font-size: 1.05rem;
+  padding: 10px 20px;
+  background-color: #4b2673;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subtitulo-singles a:hover {
+  background-color: #fcd060;
+  color: #4b2673;
+  transform: translateY(-2px);
+}
   
