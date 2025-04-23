@@ -471,6 +471,13 @@ body {
     margin: 0;
   }  
 
+  .producto img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
+  }  
+
   .producto h4 {
     font-size: 1rem;
     text-align: center;
